@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEM JÉRÉMIE BOYMBONGO-NDOYE | Civil Engineer & Climate Specialist</title>
+    
+    <!-- Meta Tags for SEO (World Bank/UN Recruiters) -->
+    <meta name="description" content="Civil Engineer and Climate Change Researcher specializing in resilient infrastructure and sustainable development. PAUWES Graduate.">
+    <meta name="keywords" content="Civil Engineering, Climate Change, Africa, PAUWES, Sustainable Infrastructure, WASH, Jeremie Boymbongo">
+
+    <!-- Frameworks -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0F172A',   /* Deep World Bank Blue */
+                        secondary: '#16A34A', /* Climate Green */
+                        accent: '#38BDF8',    /* Sky Blue */
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        .glass-nav { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+        .dark .glass-nav { background: rgba(15, 23, 42, 0.9); }
+        .gradient-text { background: linear-gradient(90deg, #16A34A, #38BDF8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 antialiased">
+
+    <!-- NAVIGATION -->
+    <nav class="fixed w-full z-50 glass-nav border-b border-slate-200 dark:border-slate-800 transition-all">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <div class="flex flex-col">
+                <span class="font-bold text-xl tracking-tighter leading-none">SEM JÉRÉMIE</span>
+                <span class="text-[10px] uppercase tracking-[0.2em] text-secondary font-bold">Boymbongo-Ndoye</span>
+            </div>
+            
+            <div class="hidden md:flex space-x-10 items-center font-medium text-sm uppercase tracking-wider">
+                <a href="#about" class="hover:text-secondary transition">Expertise</a>
+                <a href="#experience" class="hover:text-secondary transition">Experience</a>
+                <a href="#research" class="hover:text-secondary transition">Research</a>
+                <a href="#contact" class="bg-primary dark:bg-white dark:text-primary text-white px-5 py-2 rounded-full hover:scale-105 transition active:scale-95 shadow-lg">Contact</a>
+                
+                <div class="flex items-center border-l pl-6 space-x-4">
+                    <select id="lang-select" class="bg-transparent border-none text-xs focus:ring-0 cursor-pointer">
+                        <option value="fr">FR</option>
+                        <option value="en">EN</option>
+                        <option value="ar">AR</option>
+                    </select>
+                    <button id="theme-toggle" class="hover:text-yellow-500 transition"><i class="fas fa-moon dark:hidden"></i><i class="fas fa-sun hidden dark:block"></i></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="relative min-h-screen flex items-center pt-20">
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+            <div data-aos="fade-up">
+                <div class="inline-flex items-center space-x-2 bg-secondary/10 text-secondary px-3 py-1 rounded-full text-xs font-bold mb-6">
+                    <span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-secondary"></span></span>
+                    <span>Disponible pour Consulting International</span>
+                </div>
+                <h1 class="text-5xl lg:text-7xl font-extrabold leading-tight mb-6">
+                    Building a <span class="gradient-text">Resilient</span> Africa.
+                </h1>
+                <p class="text-xl text-slate-600 dark:text-slate-400 mb-10 leading-relaxed max-w-xl">
+                    Ingénieur Civil & Chercheur spécialisé dans l'adaptation climatique. Je transforme les défis environnementaux en infrastructures durables.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#research" class="bg-secondary text-white px-10 py-4 rounded-xl font-bold text-center hover:shadow-2xl hover:shadow-green-500/20 transition-all">Consulter mes Projets</a>
+                    <a href="./assets/CV_Jeremie_Boymbongo.pdf" download="CV_Jeremie_Boymbongo.pdf" class="border border-slate-300 dark:border-slate-700 px-10 py-4 rounded-xl font-bold text-center hover:bg-slate-100 dark:hover:bg-slate-800 transition-all flex items-center justify-center">
+                        <i class="fas fa-download mr-2"></i> Curriculum Vitae
+                    </a>
+                </div>
+            </div>
+            
+            <div class="relative" data-aos="fade-left" data-aos-delay="200">
+                <div class="relative z-10 w-full aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl grayscale hover:grayscale-0 transition duration-700">
+                    <img src="https://via.placeholder.com/800x1000?text=JEREMIE+BOYMBONGO" alt="Sem Jérémie" class="w-full h-full object-cover">
+                </div>
+                <!-- Decorative element -->
+                <div class="absolute -bottom-10 -right-10 w-64 h-64 bg-secondary/20 rounded-full blur-3xl -z-0"></div>
+                <div class="absolute -top-10 -left-10 w-64 h-64 bg-accent/20 rounded-full blur-3xl -z-0"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESEARCH HIGHLIGHT -->
+    <section id="research" class="py-24 bg-white dark:bg-slate-900 border-y border-slate-100 dark:border-slate-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16">
+                <div class="max-w-2xl">
+                    <h2 class="text-3xl font-bold mb-4">Recherche & Innovation Climat</h2>
+                    <p class="text-slate-500">Expertise développée au sein de l'Institut PAUWES (Algérie) sous l'égide de l'Union Africaine.</p>
+                </div>
+                <div class="mt-6 md:mt-0">
+                    <span class="text-5xl font-bold text-secondary/20">PAUWES 2024</span>
+                </div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="p-8 rounded-3xl bg-slate-50 dark:bg-slate-800 border border-transparent hover:border-secondary transition">
+                    <h3 class="font-bold text-xl mb-3">Adaptation</h3>
+                    <p class="text-sm opacity-70">Stratégies de résilience pour les infrastructures urbaines face aux inondations.</p>
+                </div>
+                <div class="p-8 rounded-3xl bg-slate-50 dark:bg-slate-800 border border-transparent hover:border-secondary transition">
+                    <h3 class="font-bold text-xl mb-3">WASH</h3>
+                    <p class="text-sm opacity-70">Gestion durable des ressources en eau et assainissement en milieu rural.</p>
+                </div>
+                <div class="p-8 rounded-3xl bg-slate-50 dark:bg-slate-800 border border-transparent hover:border-secondary transition">
+                    <h3 class="font-bold text-xl mb-3">CDR</h3>
+                    <p class="text-sm opacity-70">Technologies de retrait du dioxyde de carbone et solutions basées sur la nature (NbS).</p>
+                </div>
+                <div class="p-8 rounded-3xl bg-slate-50 dark:bg-slate-800 border border-transparent hover:border-secondary transition">
+                    <h3 class="font-bold text-xl mb-3">Startup</h3>
+                    <p class="text-sm opacity-70">Entrepreneuriat vert et solutions intelligentes pour les villes africaines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section id="contact" class="py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="bg-primary dark:bg-slate-900 rounded-[3rem] p-12 lg:p-20 text-white overflow-hidden relative">
+                <div class="relative z-10 grid lg:grid-cols-2 gap-16">
+                    <div>
+                        <h2 class="text-4xl font-bold mb-6">Prêt à lancer un projet d'envergure ?</h2>
+                        <p class="text-slate-400 mb-10 text-lg">Je suis disponible pour des missions de conseil, de supervision technique et de recherche appliquée partout dans le monde.</p>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-center space-x-4">
+                                <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center"><i class="fas fa-envelope"></i></div>
+                                <a href="mailto:sbjboymbongo@gmail.com" class="hover:text-secondary transition">sbjboymbongo@gmail.com</a>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center"><i class="fas fa-phone"></i></div>
+                                <a href="tel:+23672758738" class="hover:text-secondary transition">+236 72 75 87 38</a>
+                            </div>
+                            <div class="flex items-center space-x-4 mt-8 pt-8 border-t border-white/10">
+                                <a href="https://www.linkedin.com/in/sem-j%C3%A9r%C3%A9mie-boymbongo-ndoye-892985279" class="text-2xl hover:text-secondary transition"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://x.com/jeremie_se25328" class="text-2xl hover:text-secondary transition"><i class="fab fa-x-twitter"></i></a>
+                                <a href="https://www.instagram.com/72758738sbj" class="text-2xl hover:text-secondary transition"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form id="contact-form" class="space-y-4">
+                        <div class="grid grid-cols-2 gap-4">
+                            <input type="text" name="firstname" placeholder="Prénom" required class="bg-white/5 border border-white/10 p-4 rounded-xl focus:outline-none focus:border-secondary transition text-white placeholder-slate-400">
+                            <input type="text" name="lastname" placeholder="Nom" required class="bg-white/5 border border-white/10 p-4 rounded-xl focus:outline-none focus:border-secondary transition text-white placeholder-slate-400">
+                        </div>
+                        <input type="email" name="email" placeholder="Email Professionnel" required class="w-full bg-white/5 border border-white/10 p-4 rounded-xl focus:outline-none focus:border-secondary transition text-white placeholder-slate-400">
+                        <textarea name="message" placeholder="Parlez-moi de votre projet..." rows="4" required class="w-full bg-white/5 border border-white/10 p-4 rounded-xl focus:outline-none focus:border-secondary transition text-white placeholder-slate-400"></textarea>
+                        <button type="submit" class="w-full bg-secondary py-4 rounded-xl font-bold hover:bg-green-600 transition shadow-xl shadow-green-900/20">Envoyer la proposition</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-12 border-t border-slate-200 dark:border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center opacity-60 text-sm">
+            <p>© 2024 SEM JÉRÉMIE BOYMBONGO-NDOYE. Tous droits réservés.</p>
+            <div class="flex space-x-8 mt-6 md:mt-0">
+                <a href="https://www.linkedin.com/in/sem-j%C3%A9r%C3%A9mie-boymbongo-ndoye-892985279" class="hover:text-secondary">LinkedIn</a>
+                <a href="https://x.com/jeremie_se25328" class="hover:text-secondary">Twitter / X</a>
+                <a href="https://www.instagram.com/72758738sbj" class="hover:text-secondary">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+        
+        // Dark Mode Toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        themeToggle.addEventListener('click', () => {
+            document.documentElement.classList.toggle('dark');
+            localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+        });
+
+        // Load theme preference
+        if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.classList.add('dark');
+        }
+
+        // Contact Form Handler with Formspree
+        document.getElementById('contact-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const button = e.target.querySelector('button[type="submit"]');
+            const originalText = button.textContent;
+            button.disabled = true;
+            button.textContent = 'Envoi en cours...';
+            
+            try {
+                const response = await fetch('https://formspree.io/f/xyzabcd', {
+                    method: 'POST',
+                    body: new FormData(e.target),
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+                
+                if (response.ok) {
+                    alert('✅ Message envoyé avec succès! Je vous répondrai bientôt.');
+                    e.target.reset();
+                    button.textContent = '✅ Message envoyé!';
+                    button.classList.add('bg-green-600');
+                    setTimeout(() => {
+                        button.disabled = false;
+                        button.textContent = originalText;
+                        button.classList.remove('bg-green-600');
+                    }, 3000);
+                } else {
+                    alert('❌ Une erreur s\'est produite. Veuillez réessayer ou m\'envoyer un email directement.');
+                    button.disabled = false;
+                    button.textContent = originalText;
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('❌ Une erreur s\'est produite. Veuillez m\'envoyer un email à sbjboymbongo@gmail.com');
+                button.disabled = false;
+                button.textContent = originalText;
+            }
+        });
+
+        // Language Switcher
+        document.getElementById('lang-select').addEventListener('change', (e) => {
+            const lang = e.target.value;
+            alert('Traductions en cours de développement pour: ' + lang.toUpperCase());
+        });
+    </script>
+</body>
+</html>
