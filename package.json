@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio of Sem Jérémie Boymbongo-Ndoye - Civil Engineer & Climate Specialist",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html",
+    "build": "echo 'Static site - no build required'"
+  },
+  "keywords": [
+    "civil-engineering",
+    "climate-change",
+    "africa",
+    "pauwes",
+    "sustainable-infrastructure"
+  ],
+  "author": "Sem Jérémie Boymbongo-Ndoye",
+  "license": "MIT"
+}
